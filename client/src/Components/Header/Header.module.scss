@@ -1,0 +1,10 @@
+.header {
+  min-height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    margin: 20px
+  }
+}

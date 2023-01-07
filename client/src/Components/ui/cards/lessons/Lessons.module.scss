@@ -1,0 +1,76 @@
+.spacing {
+  margin-bottom: 10px;
+}
+
+.MainNoAuth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  button {
+    margin-top: 10px;
+    max-width: 68%;
+  }
+
+}
+
+.LessonIsEmpty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.LessonsWrapper {
+  display: flex;
+  flex-direction: column;
+
+  .LessonCard {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background: var(--white);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+
+    .LessonAdmins {
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+    }
+
+    .DeleteButton {
+      background: var(--transparent);
+      margin-bottom: 10px;
+      position: absolute;
+      right: 5px;
+
+    }
+
+    .EditButton {
+      position: absolute;
+      margin-right: 20px;
+      background: var(--transparent);
+      margin-bottom: 10px;
+      right: 20px;
+    }
+
+    p {
+      margin-bottom: 5px;
+      @media (max-width: 425px) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

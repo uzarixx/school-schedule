@@ -1,0 +1,35 @@
+
+.FormWrapper {
+  display: flex;
+  flex-direction: column;
+
+
+  .InputWrapper {
+    position: relative;
+
+
+
+    .Active {
+      border: 1px solid var(--error);
+    }
+
+    p {
+      position: absolute;
+      bottom: 10px;
+      left: 5px;
+      font-size: 11px;
+    }
+  }
+
+  span {
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    font-size: 12px;
+    left: 50%;
+
+    transform: translate(-50%);
+    text-align: center;
+  }
+}
+

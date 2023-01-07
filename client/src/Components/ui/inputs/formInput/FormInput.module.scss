@@ -1,0 +1,26 @@
+.Input {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  border: 1px solid var(--disabled);
+  margin-bottom: 25px;
+  padding: 0 16px;
+  height: 34px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: .5px;
+
+  &:focus {
+    border: 1px solid var(--orange);
+  }
+
+  &::placeholder {
+    color: var(--disabled);
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+.Active {
+  border: 1px solid var(--error);
+}

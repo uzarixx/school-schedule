@@ -1,0 +1,18 @@
+.Button {
+  display: block;
+  background: var(--orange);
+  border-radius: 10px;
+  color: var(--white);
+  font-size: 27px;
+  font-weight: 500;
+  width: 100%;
+  transition: background-color .2s linear;
+
+  &:hover {
+    background: var(--orange-hover);
+  }
+
+  &:disabled {
+    background: var(--orange-hover);
+  }
+}

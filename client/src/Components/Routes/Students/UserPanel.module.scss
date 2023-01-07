@@ -1,0 +1,37 @@
+.spacing {
+  margin-bottom: 10px;
+}
+
+
+.userBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .selectWrapper {
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+    .deleteUserButton {
+      cursor: pointer;
+      margin-left: 5px;
+      img {
+        max-width: 80%;
+      }
+    }
+
+
+    @media (max-width: 768px) {
+      width: 50%;
+    }
+
+    select {
+      max-width: 100%;
+    }
+
+  }
+
+
+}

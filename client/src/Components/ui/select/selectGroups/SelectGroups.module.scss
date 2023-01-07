@@ -1,0 +1,13 @@
+.SelectWrapper {
+  width: 100%;
+  border: 1px solid var(--disabled);
+  border-radius: 10px;
+  outline: none;
+  padding: 0 10px;
+  min-height: 33px;
+
+
+  &:focus {
+    border: 1px solid var(--orange);
+  }
+}

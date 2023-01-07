@@ -1,0 +1,13 @@
+.CloseIcon {
+  display: flex;
+  justify-content: flex-end;
+
+
+  .CloseIconWrap {
+    cursor: pointer;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
